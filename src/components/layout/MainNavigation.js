@@ -4,7 +4,7 @@ import classes from "./MainNavigation.module.css";
 
 export default function MainNavigation({ setPage }) {
   return (
-    <header className={classes.header}>
+    <header className={classes.header} data-test="navigation-header">
       <div className={classes.logo}>React Meetups</div>
       <nav>
         <ul>

@@ -28,7 +28,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div data-test="app">
       <MainNavigation setPage={setPage} />
       <Layout>{getCurrentPageComponent()}</Layout>
     </div>

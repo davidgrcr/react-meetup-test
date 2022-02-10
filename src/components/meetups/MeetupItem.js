@@ -11,7 +11,7 @@ export default function MeetupItem() {
   let [item] = data;
 
   return (
-    <li className={classes.item}>
+    <li className={classes.item} data-test='meet-up-item'>
       <Card>
         <div className={classes.image}>
           <img src={item.image} alt={item.title} />
