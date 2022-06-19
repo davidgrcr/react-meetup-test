@@ -1,3 +1,5 @@
+I made this tecnical challenge for my current job to hire devs :)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
